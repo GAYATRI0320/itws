@@ -1,0 +1,50 @@
+Working on general commands on scilab environment
+Help – detailed help menu for scilab commands
+Who – list all the variables from the variable browser window
+Whos - list all the variables with byte size, variable type etc.
+Clc – Clears command window
+Clear – Removes the variable from memory
+Quit – to close the session
+Pwd – present working directory
+Ls – list the files
+Ls -ltr – list the detailed view on the files
+Cd - to change the directory
+Mkdir – to create a new directory
+To work on Special variables / Pre-Defined Variables
+%pi – 3.14
+Ans
+% e = 2.718
+%eps – epsilon
+%inf – infinity
+Basic Scalar & Vector Operations
+Creation of Scalar Elements
+Y = [1 4 6] Declares a row vetor
+yT = [1; 4; 6] Declares a Column vector
+Creation of Vector Elements
+Y = [1 4 6; 2 7 3; 4 1 1]
+Creates a 3*3 matrix
+
+To determine the size / order of the vectors.
+
+Size(y)
+
+To change the elements in the given vector
+
+vector(i,j) = value
+
+Performing element by element operations using dot operator
+
+.*, ./, .^,
+
+6
+
+Linspace[a,b,N] Vector can be created by evenly spaced points. From a to
+b the vector is created by ‘N’ evenly spaced points
+Eg: linspace[0,1,5] 0 0.25 0.5 0.75 1
+
+Transpose of a matrix – y’
+ans =
+
+1. 2. 4.
+4. 7. 1.
+6. 3. 1.
